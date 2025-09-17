@@ -3,13 +3,40 @@ title: "全球 eSIM 流量套餐中文导航"
 lang: zh-CN
 description: "按国家快速直达价格、覆盖、有效期、APN 与注意事项"
 layout: default
+plugins: [jekyll-seo-tag]
 ---
 
+{% seo %}
+<style>
+.container{max-width:1100px;margin:0 auto;}
+.hero{padding:28px 0 8px 0;}
+.hero h1{margin:0 0 6px 0;}
+.hero p{color:#4b5563;margin:6px 0 14px;}
+.hero .cta{display:flex;gap:10px;flex-wrap:wrap;}
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;border:1px solid #0ea5e9;color:#0ea5e9;text-decoration:none;}
+.btn.primary{background:#0ea5e9;color:#fff;border-color:#0ea5e9;}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:10px 0 24px;}
+.card{display:block;border:1px solid #e5e7eb;border-radius:10px;padding:14px;text-decoration:none;background:#fff;transition:box-shadow .2s;}
+.card:hover{box-shadow:0 6px 16px rgba(0,0,0,.08);}
+.card-title{font-weight:600;color:#111827;margin-bottom:6px;}
+.card-desc{color:#6b7280;font-size:13px;}
+.alpha-nav a{margin-right:4px;}
+.search{margin:12px 0 8px;}
+.search input{width:100%;padding:10px 12px;border:1px solid #d1d5db;border-radius:8px;}
+ul.country-list{columns: 2; -webkit-columns: 2; -moz-columns: 2;}
+@media(min-width:900px){ul.country-list{columns:3;-webkit-columns:3;-moz-columns:3}}
+</style>
+<div class="container">
+<div class="hero">
 # 全球 eSIM 流量套餐中文导航
 
 　　按国家快速直达价格、覆盖、有效期、APN 与注意事项。覆盖 168+ 国家/地区，持续更新。
-
-[ 切换到手机卡站 → ](https://faciylike.github.io)
+<div class="cta">
+<a class="btn primary" href="#countries">按国家浏览</a>
+<a class="btn" href="https://faciylike.github.io">切换到手机卡站 →</a>
+</div>
+</div>
+<div class="search"><input id="search" placeholder="输入国家/拼音/英文过滤列表…"/></div>
 
 ---
 
@@ -17,254 +44,326 @@ layout: default
 
 　　请选择目的地国家进入对应页面，获取价格梯度、有效期、网络覆盖、速度表现、APN/激活步骤与常见问题。页面内容结构统一、便于快速对比选择。
 
-## 热门与建议
+## 热门目的地
+
+<div class="cards">
+  <a class="card" href="https://azpetavircava.github.io/japan-data-plans"><div class="card-title">日本</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/thailand-data-plans"><div class="card-title">泰国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/south-korea-data-plans"><div class="card-title">韩国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/united-states-data-plans"><div class="card-title">美国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/united-kingdom-data-plans"><div class="card-title">英国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/turkey-data-plans"><div class="card-title">土耳其</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/singapore-data-plans"><div class="card-title">新加坡</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/france-data-plans"><div class="card-title">法国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/germany-data-plans"><div class="card-title">德国</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/italy-data-plans"><div class="card-title">意大利</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/spain-data-plans"><div class="card-title">西班牙</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/australia-data-plans"><div class="card-title">澳大利亚</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/malaysia-data-plans"><div class="card-title">马来西亚</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/indonesia-data-plans"><div class="card-title">印尼</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/vietnam-data-plans"><div class="card-title">越南</div><div class="card-desc">直达流量卡指南</div></a>
+  <a class="card" href="https://azpetavircava.github.io/united-arab-emirates-data-plans"><div class="card-title">阿拉伯联合酋长国(阿联酋迪拜)</div><div class="card-desc">直达流量卡指南</div></a>
+</div>
+
+## 建议与说明
 
 　　日本、泰国、韩国、美国、英国、土耳其、新加坡等目的地更新频率更高；如需本地号或语音通话，请优先选择支持 VoLTE 的产品并确认是否需要实名。
 
-## 按字母快速导航
+<div id="countries"></div>
+## 全部国家
+
+> 可用上方搜索框快速筛选国家；或按首字母浏览。
 
 [ A ](#section-A) [ B ](#section-B) [ C ](#section-C) [ D ](#section-D) [ E ](#section-E) [ F ](#section-F) [ G ](#section-G) [ H ](#section-H) [ I ](#section-I) [ J ](#section-J) [ K ](#section-K) [ L ](#section-L) [ M ](#section-M) [ N ](#section-N) [ O ](#section-O) [ P ](#section-P) [ Q ](#section-Q) [ R ](#section-R) [ S ](#section-S) [ T ](#section-T) [ U ](#section-U) [ V ](#section-V) [ W ](#section-W) [ X ](#section-X) [ Y ](#section-Y) [ Z ](#section-Z)
 
 
 ### A
 <a id="section-A"></a>
-- [阿富汗](https://azpetavircava.github.io/afghanistan-data-plans)
-- [阿尔巴尼亚](https://azpetavircava.github.io/albania-data-plans)
-- [阿尔及利亚](https://azpetavircava.github.io/algeria-data-plans)
-- [美属萨摩亚](https://azpetavircava.github.io/american-samoa-data-plans)
-- [安哥拉](https://azpetavircava.github.io/angola-data-plans)
-- [安圭拉](https://azpetavircava.github.io/anguilla-data-plans)
-- [安提瓜和巴布达](https://azpetavircava.github.io/antigua-and-barbuda-data-plans)
-- [阿根廷](https://azpetavircava.github.io/argentina-data-plans)
-- [亚美尼亚](https://azpetavircava.github.io/armenia-data-plans)
-- [阿鲁巴](https://azpetavircava.github.io/aruba-data-plans)
-- [澳大利亚](https://azpetavircava.github.io/australia-data-plans)
-- [奥地利](https://azpetavircava.github.io/austria-data-plans)
-- [阿塞拜疆](https://azpetavircava.github.io/azerbaijan-data-plans)
+<ul class="country-list">
+  <li data-slug="afghanistan" data-cn="阿富汗"><a href="https://azpetavircava.github.io/afghanistan-data-plans">阿富汗</a></li>
+  <li data-slug="albania" data-cn="阿尔巴尼亚"><a href="https://azpetavircava.github.io/albania-data-plans">阿尔巴尼亚</a></li>
+  <li data-slug="algeria" data-cn="阿尔及利亚"><a href="https://azpetavircava.github.io/algeria-data-plans">阿尔及利亚</a></li>
+  <li data-slug="american-samoa" data-cn="美属萨摩亚"><a href="https://azpetavircava.github.io/american-samoa-data-plans">美属萨摩亚</a></li>
+  <li data-slug="angola" data-cn="安哥拉"><a href="https://azpetavircava.github.io/angola-data-plans">安哥拉</a></li>
+  <li data-slug="anguilla" data-cn="安圭拉"><a href="https://azpetavircava.github.io/anguilla-data-plans">安圭拉</a></li>
+  <li data-slug="antigua-and-barbuda" data-cn="安提瓜和巴布达"><a href="https://azpetavircava.github.io/antigua-and-barbuda-data-plans">安提瓜和巴布达</a></li>
+  <li data-slug="argentina" data-cn="阿根廷"><a href="https://azpetavircava.github.io/argentina-data-plans">阿根廷</a></li>
+  <li data-slug="armenia" data-cn="亚美尼亚"><a href="https://azpetavircava.github.io/armenia-data-plans">亚美尼亚</a></li>
+  <li data-slug="aruba" data-cn="阿鲁巴"><a href="https://azpetavircava.github.io/aruba-data-plans">阿鲁巴</a></li>
+  <li data-slug="australia" data-cn="澳大利亚"><a href="https://azpetavircava.github.io/australia-data-plans">澳大利亚</a></li>
+  <li data-slug="austria" data-cn="奥地利"><a href="https://azpetavircava.github.io/austria-data-plans">奥地利</a></li>
+  <li data-slug="azerbaijan" data-cn="阿塞拜疆"><a href="https://azpetavircava.github.io/azerbaijan-data-plans">阿塞拜疆</a></li>
+</ul>
 
 ### B
 <a id="section-B"></a>
-- [巴哈马](https://azpetavircava.github.io/bahamas-data-plans)
-- [巴林](https://azpetavircava.github.io/bahrain-data-plans)
-- [孟加拉国](https://azpetavircava.github.io/bangladesh-data-plans)
-- [巴巴多斯](https://azpetavircava.github.io/barbados-data-plans)
-- [白俄罗斯](https://azpetavircava.github.io/belarus-data-plans)
-- [比利时](https://azpetavircava.github.io/belgium-data-plans)
-- [伯利兹](https://azpetavircava.github.io/belize-data-plans)
-- [贝宁](https://azpetavircava.github.io/benin-data-plans)
-- [百慕大](https://azpetavircava.github.io/bermuda-data-plans)
-- [不丹](https://azpetavircava.github.io/bhutan-data-plans)
-- [玻利维亚](https://azpetavircava.github.io/bolivia-data-plans)
-- [博茨瓦纳](https://azpetavircava.github.io/botswana-data-plans)
-- [巴西](https://azpetavircava.github.io/brazil-data-plans)
-- [英属维尔京群岛](https://azpetavircava.github.io/british-virgin-islands-data-plans)
-- [布基纳法索](https://azpetavircava.github.io/burkina-faso-data-plans)
-- [布隆迪](https://azpetavircava.github.io/burundi-data-plans)
+<ul class="country-list">
+  <li data-slug="bahamas" data-cn="巴哈马"><a href="https://azpetavircava.github.io/bahamas-data-plans">巴哈马</a></li>
+  <li data-slug="bahrain" data-cn="巴林"><a href="https://azpetavircava.github.io/bahrain-data-plans">巴林</a></li>
+  <li data-slug="bangladesh" data-cn="孟加拉国"><a href="https://azpetavircava.github.io/bangladesh-data-plans">孟加拉国</a></li>
+  <li data-slug="barbados" data-cn="巴巴多斯"><a href="https://azpetavircava.github.io/barbados-data-plans">巴巴多斯</a></li>
+  <li data-slug="belarus" data-cn="白俄罗斯"><a href="https://azpetavircava.github.io/belarus-data-plans">白俄罗斯</a></li>
+  <li data-slug="belgium" data-cn="比利时"><a href="https://azpetavircava.github.io/belgium-data-plans">比利时</a></li>
+  <li data-slug="belize" data-cn="伯利兹"><a href="https://azpetavircava.github.io/belize-data-plans">伯利兹</a></li>
+  <li data-slug="benin" data-cn="贝宁"><a href="https://azpetavircava.github.io/benin-data-plans">贝宁</a></li>
+  <li data-slug="bermuda" data-cn="百慕大"><a href="https://azpetavircava.github.io/bermuda-data-plans">百慕大</a></li>
+  <li data-slug="bhutan" data-cn="不丹"><a href="https://azpetavircava.github.io/bhutan-data-plans">不丹</a></li>
+  <li data-slug="bolivia" data-cn="玻利维亚"><a href="https://azpetavircava.github.io/bolivia-data-plans">玻利维亚</a></li>
+  <li data-slug="botswana" data-cn="博茨瓦纳"><a href="https://azpetavircava.github.io/botswana-data-plans">博茨瓦纳</a></li>
+  <li data-slug="brazil" data-cn="巴西"><a href="https://azpetavircava.github.io/brazil-data-plans">巴西</a></li>
+  <li data-slug="british-virgin-islands" data-cn="英属维尔京群岛"><a href="https://azpetavircava.github.io/british-virgin-islands-data-plans">英属维尔京群岛</a></li>
+  <li data-slug="burkina-faso" data-cn="布基纳法索"><a href="https://azpetavircava.github.io/burkina-faso-data-plans">布基纳法索</a></li>
+  <li data-slug="burundi" data-cn="布隆迪"><a href="https://azpetavircava.github.io/burundi-data-plans">布隆迪</a></li>
+</ul>
 
 ### C
 <a id="section-C"></a>
-- [柬埔寨](https://azpetavircava.github.io/cambodia-data-plans)
-- [喀麦隆](https://azpetavircava.github.io/cameroon-data-plans)
-- [加拿大](https://azpetavircava.github.io/canada-data-plans)
-- [佛得角](https://azpetavircava.github.io/cape-verde-data-plans)
-- [荷兰加勒比区](https://azpetavircava.github.io/caribbean-netherlands-data-plans)
-- [开曼群岛](https://azpetavircava.github.io/cayman-islands-data-plans)
-- [中非共和国](https://azpetavircava.github.io/central-african-republic-data-plans)
-- [乍得](https://azpetavircava.github.io/chad-data-plans)
-- [智利](https://azpetavircava.github.io/chile-data-plans)
-- [哥伦比亚](https://azpetavircava.github.io/colombia-data-plans)
-- [科摩罗](https://azpetavircava.github.io/comoros-data-plans)
-- [哥斯达黎加](https://azpetavircava.github.io/costa-rica-data-plans)
-- [古巴](https://azpetavircava.github.io/cuba-data-plans)
-- [塞浦路斯](https://azpetavircava.github.io/cyprus-data-plans)
-- [捷克](https://azpetavircava.github.io/czech-republic-data-plans)
+<ul class="country-list">
+  <li data-slug="cambodia" data-cn="柬埔寨"><a href="https://azpetavircava.github.io/cambodia-data-plans">柬埔寨</a></li>
+  <li data-slug="cameroon" data-cn="喀麦隆"><a href="https://azpetavircava.github.io/cameroon-data-plans">喀麦隆</a></li>
+  <li data-slug="canada" data-cn="加拿大"><a href="https://azpetavircava.github.io/canada-data-plans">加拿大</a></li>
+  <li data-slug="cape-verde" data-cn="佛得角"><a href="https://azpetavircava.github.io/cape-verde-data-plans">佛得角</a></li>
+  <li data-slug="caribbean-netherlands" data-cn="荷兰加勒比区"><a href="https://azpetavircava.github.io/caribbean-netherlands-data-plans">荷兰加勒比区</a></li>
+  <li data-slug="cayman-islands" data-cn="开曼群岛"><a href="https://azpetavircava.github.io/cayman-islands-data-plans">开曼群岛</a></li>
+  <li data-slug="central-african-republic" data-cn="中非共和国"><a href="https://azpetavircava.github.io/central-african-republic-data-plans">中非共和国</a></li>
+  <li data-slug="chad" data-cn="乍得"><a href="https://azpetavircava.github.io/chad-data-plans">乍得</a></li>
+  <li data-slug="chile" data-cn="智利"><a href="https://azpetavircava.github.io/chile-data-plans">智利</a></li>
+  <li data-slug="colombia" data-cn="哥伦比亚"><a href="https://azpetavircava.github.io/colombia-data-plans">哥伦比亚</a></li>
+  <li data-slug="comoros" data-cn="科摩罗"><a href="https://azpetavircava.github.io/comoros-data-plans">科摩罗</a></li>
+  <li data-slug="costa-rica" data-cn="哥斯达黎加"><a href="https://azpetavircava.github.io/costa-rica-data-plans">哥斯达黎加</a></li>
+  <li data-slug="cuba" data-cn="古巴"><a href="https://azpetavircava.github.io/cuba-data-plans">古巴</a></li>
+  <li data-slug="cyprus" data-cn="塞浦路斯"><a href="https://azpetavircava.github.io/cyprus-data-plans">塞浦路斯</a></li>
+  <li data-slug="czech-republic" data-cn="捷克"><a href="https://azpetavircava.github.io/czech-republic-data-plans">捷克</a></li>
+</ul>
 
 ### D
 <a id="section-D"></a>
-- [刚果（金）](https://azpetavircava.github.io/democratic-republic-of-the-congo-data-plans)
-- [多米尼克](https://azpetavircava.github.io/dominica-data-plans)
-- [多米尼加共和国](https://azpetavircava.github.io/dominican-republic-data-plans)
+<ul class="country-list">
+  <li data-slug="democratic-republic-of-the-congo" data-cn="刚果（金）"><a href="https://azpetavircava.github.io/democratic-republic-of-the-congo-data-plans">刚果（金）</a></li>
+  <li data-slug="dominica" data-cn="多米尼克"><a href="https://azpetavircava.github.io/dominica-data-plans">多米尼克</a></li>
+  <li data-slug="dominican-republic" data-cn="多米尼加共和国"><a href="https://azpetavircava.github.io/dominican-republic-data-plans">多米尼加共和国</a></li>
+</ul>
 
 ### E
 <a id="section-E"></a>
-- [厄瓜多尔](https://azpetavircava.github.io/ecuador-data-plans)
-- [埃及](https://azpetavircava.github.io/egypt-data-plans)
-- [萨尔瓦多](https://azpetavircava.github.io/el-salvador-data-plans)
-- [斯威士兰](https://azpetavircava.github.io/eswatini-data-plans)
-- [埃塞俄比亚](https://azpetavircava.github.io/ethiopia-data-plans)
+<ul class="country-list">
+  <li data-slug="ecuador" data-cn="厄瓜多尔"><a href="https://azpetavircava.github.io/ecuador-data-plans">厄瓜多尔</a></li>
+  <li data-slug="egypt" data-cn="埃及"><a href="https://azpetavircava.github.io/egypt-data-plans">埃及</a></li>
+  <li data-slug="el-salvador" data-cn="萨尔瓦多"><a href="https://azpetavircava.github.io/el-salvador-data-plans">萨尔瓦多</a></li>
+  <li data-slug="eswatini" data-cn="斯威士兰"><a href="https://azpetavircava.github.io/eswatini-data-plans">斯威士兰</a></li>
+  <li data-slug="ethiopia" data-cn="埃塞俄比亚"><a href="https://azpetavircava.github.io/ethiopia-data-plans">埃塞俄比亚</a></li>
+</ul>
 
 ### F
 <a id="section-F"></a>
-- [斐济](https://azpetavircava.github.io/fiji-data-plans)
-- [法国](https://azpetavircava.github.io/france-data-plans)
-- [法属圭亚那](https://azpetavircava.github.io/french-guiana-data-plans)
+<ul class="country-list">
+  <li data-slug="fiji" data-cn="斐济"><a href="https://azpetavircava.github.io/fiji-data-plans">斐济</a></li>
+  <li data-slug="france" data-cn="法国"><a href="https://azpetavircava.github.io/france-data-plans">法国</a></li>
+  <li data-slug="french-guiana" data-cn="法属圭亚那"><a href="https://azpetavircava.github.io/french-guiana-data-plans">法属圭亚那</a></li>
+</ul>
 
 ### G
 <a id="section-G"></a>
-- [加蓬](https://azpetavircava.github.io/gabon-data-plans)
-- [冈比亚](https://azpetavircava.github.io/gambia-data-plans)
-- [乔治亚州](https://azpetavircava.github.io/georgia-data-plans)
-- [德国](https://azpetavircava.github.io/germany-data-plans)
-- [加纳](https://azpetavircava.github.io/ghana-data-plans)
-- [希腊](https://azpetavircava.github.io/greece-data-plans)
-- [格林纳达](https://azpetavircava.github.io/grenada-data-plans)
-- [瓜德罗普](https://azpetavircava.github.io/guadeloupe-data-plans)
-- [危地马拉](https://azpetavircava.github.io/guatemala-data-plans)
-- [几内亚比绍共和国](https://azpetavircava.github.io/guinea-bissau-data-plans)
-- [几内亚](https://azpetavircava.github.io/guinea-data-plans)
-- [圭亚那](https://azpetavircava.github.io/guyana-data-plans)
+<ul class="country-list">
+  <li data-slug="gabon" data-cn="加蓬"><a href="https://azpetavircava.github.io/gabon-data-plans">加蓬</a></li>
+  <li data-slug="gambia" data-cn="冈比亚"><a href="https://azpetavircava.github.io/gambia-data-plans">冈比亚</a></li>
+  <li data-slug="georgia" data-cn="乔治亚州"><a href="https://azpetavircava.github.io/georgia-data-plans">乔治亚州</a></li>
+  <li data-slug="germany" data-cn="德国"><a href="https://azpetavircava.github.io/germany-data-plans">德国</a></li>
+  <li data-slug="ghana" data-cn="加纳"><a href="https://azpetavircava.github.io/ghana-data-plans">加纳</a></li>
+  <li data-slug="greece" data-cn="希腊"><a href="https://azpetavircava.github.io/greece-data-plans">希腊</a></li>
+  <li data-slug="grenada" data-cn="格林纳达"><a href="https://azpetavircava.github.io/grenada-data-plans">格林纳达</a></li>
+  <li data-slug="guadeloupe" data-cn="瓜德罗普"><a href="https://azpetavircava.github.io/guadeloupe-data-plans">瓜德罗普</a></li>
+  <li data-slug="guatemala" data-cn="危地马拉"><a href="https://azpetavircava.github.io/guatemala-data-plans">危地马拉</a></li>
+  <li data-slug="guinea-bissau" data-cn="几内亚比绍共和国"><a href="https://azpetavircava.github.io/guinea-bissau-data-plans">几内亚比绍共和国</a></li>
+  <li data-slug="guinea" data-cn="几内亚"><a href="https://azpetavircava.github.io/guinea-data-plans">几内亚</a></li>
+  <li data-slug="guyana" data-cn="圭亚那"><a href="https://azpetavircava.github.io/guyana-data-plans">圭亚那</a></li>
+</ul>
 
 ### H
 <a id="section-H"></a>
-- [海地](https://azpetavircava.github.io/haiti-data-plans)
-- [洪都拉斯](https://azpetavircava.github.io/honduras-data-plans)
-- [香港](https://azpetavircava.github.io/hong-kong-data-plans)
+<ul class="country-list">
+  <li data-slug="haiti" data-cn="海地"><a href="https://azpetavircava.github.io/haiti-data-plans">海地</a></li>
+  <li data-slug="honduras" data-cn="洪都拉斯"><a href="https://azpetavircava.github.io/honduras-data-plans">洪都拉斯</a></li>
+  <li data-slug="hong-kong" data-cn="香港"><a href="https://azpetavircava.github.io/hong-kong-data-plans">香港</a></li>
+</ul>
 
 ### I
 <a id="section-I"></a>
-- [印度](https://azpetavircava.github.io/india-data-plans)
-- [印尼](https://azpetavircava.github.io/indonesia-data-plans)
-- [伊朗](https://azpetavircava.github.io/iran-data-plans)
-- [伊拉克](https://azpetavircava.github.io/iraq-data-plans)
-- [爱尔兰](https://azpetavircava.github.io/ireland-data-plans)
-- [以色列](https://azpetavircava.github.io/israel-data-plans)
-- [意大利](https://azpetavircava.github.io/italy-data-plans)
+<ul class="country-list">
+  <li data-slug="india" data-cn="印度"><a href="https://azpetavircava.github.io/india-data-plans">印度</a></li>
+  <li data-slug="indonesia" data-cn="印尼"><a href="https://azpetavircava.github.io/indonesia-data-plans">印尼</a></li>
+  <li data-slug="iran" data-cn="伊朗"><a href="https://azpetavircava.github.io/iran-data-plans">伊朗</a></li>
+  <li data-slug="iraq" data-cn="伊拉克"><a href="https://azpetavircava.github.io/iraq-data-plans">伊拉克</a></li>
+  <li data-slug="ireland" data-cn="爱尔兰"><a href="https://azpetavircava.github.io/ireland-data-plans">爱尔兰</a></li>
+  <li data-slug="israel" data-cn="以色列"><a href="https://azpetavircava.github.io/israel-data-plans">以色列</a></li>
+  <li data-slug="italy" data-cn="意大利"><a href="https://azpetavircava.github.io/italy-data-plans">意大利</a></li>
+</ul>
 
 ### J
 <a id="section-J"></a>
-- [牙买加](https://azpetavircava.github.io/jamaica-data-plans)
-- [日本](https://azpetavircava.github.io/japan-data-plans)
-- [约旦](https://azpetavircava.github.io/jordan-data-plans)
+<ul class="country-list">
+  <li data-slug="jamaica" data-cn="牙买加"><a href="https://azpetavircava.github.io/jamaica-data-plans">牙买加</a></li>
+  <li data-slug="japan" data-cn="日本"><a href="https://azpetavircava.github.io/japan-data-plans">日本</a></li>
+  <li data-slug="jordan" data-cn="约旦"><a href="https://azpetavircava.github.io/jordan-data-plans">约旦</a></li>
+</ul>
 
 ### K
 <a id="section-K"></a>
-- [哈萨克斯坦](https://azpetavircava.github.io/kazakhstan-data-plans)
-- [肯尼亚](https://azpetavircava.github.io/kenya-data-plans)
-- [科威特](https://azpetavircava.github.io/kuwait-data-plans)
-- [吉尔吉斯斯坦](https://azpetavircava.github.io/kyrgyzstan-data-plans)
+<ul class="country-list">
+  <li data-slug="kazakhstan" data-cn="哈萨克斯坦"><a href="https://azpetavircava.github.io/kazakhstan-data-plans">哈萨克斯坦</a></li>
+  <li data-slug="kenya" data-cn="肯尼亚"><a href="https://azpetavircava.github.io/kenya-data-plans">肯尼亚</a></li>
+  <li data-slug="kuwait" data-cn="科威特"><a href="https://azpetavircava.github.io/kuwait-data-plans">科威特</a></li>
+  <li data-slug="kyrgyzstan" data-cn="吉尔吉斯斯坦"><a href="https://azpetavircava.github.io/kyrgyzstan-data-plans">吉尔吉斯斯坦</a></li>
+</ul>
 
 ### L
 <a id="section-L"></a>
-- [老挝](https://azpetavircava.github.io/laos-data-plans)
-- [黎巴嫩](https://azpetavircava.github.io/lebanon-data-plans)
-- [利比里亚](https://azpetavircava.github.io/liberia-data-plans)
-- [立陶宛](https://azpetavircava.github.io/lithuania-data-plans)
-- [卢森堡](https://azpetavircava.github.io/luxembourg-data-plans)
+<ul class="country-list">
+  <li data-slug="laos" data-cn="老挝"><a href="https://azpetavircava.github.io/laos-data-plans">老挝</a></li>
+  <li data-slug="lebanon" data-cn="黎巴嫩"><a href="https://azpetavircava.github.io/lebanon-data-plans">黎巴嫩</a></li>
+  <li data-slug="liberia" data-cn="利比里亚"><a href="https://azpetavircava.github.io/liberia-data-plans">利比里亚</a></li>
+  <li data-slug="lithuania" data-cn="立陶宛"><a href="https://azpetavircava.github.io/lithuania-data-plans">立陶宛</a></li>
+  <li data-slug="luxembourg" data-cn="卢森堡"><a href="https://azpetavircava.github.io/luxembourg-data-plans">卢森堡</a></li>
+</ul>
 
 ### M
 <a id="section-M"></a>
-- [马达加斯加](https://azpetavircava.github.io/madagascar-data-plans)
-- [马拉维](https://azpetavircava.github.io/malawi-data-plans)
-- [马来西亚](https://azpetavircava.github.io/malaysia-data-plans)
-- [马里](https://azpetavircava.github.io/mali-data-plans)
-- [马提尼克](https://azpetavircava.github.io/martinique-data-plans)
-- [毛里塔尼亚](https://azpetavircava.github.io/mauritania-data-plans)
-- [墨西哥](https://azpetavircava.github.io/mexico-data-plans)
-- [摩尔多瓦](https://azpetavircava.github.io/moldova-data-plans)
-- [蒙古](https://azpetavircava.github.io/mongolia-data-plans)
-- [蒙特塞拉特](https://azpetavircava.github.io/montserrat-data-plans)
-- [摩洛哥](https://azpetavircava.github.io/morocco-data-plans)
-- [莫桑比克](https://azpetavircava.github.io/mozambique-data-plans)
-- [缅甸](https://azpetavircava.github.io/myanmar-data-plans)
+<ul class="country-list">
+  <li data-slug="madagascar" data-cn="马达加斯加"><a href="https://azpetavircava.github.io/madagascar-data-plans">马达加斯加</a></li>
+  <li data-slug="malawi" data-cn="马拉维"><a href="https://azpetavircava.github.io/malawi-data-plans">马拉维</a></li>
+  <li data-slug="malaysia" data-cn="马来西亚"><a href="https://azpetavircava.github.io/malaysia-data-plans">马来西亚</a></li>
+  <li data-slug="mali" data-cn="马里"><a href="https://azpetavircava.github.io/mali-data-plans">马里</a></li>
+  <li data-slug="martinique" data-cn="马提尼克"><a href="https://azpetavircava.github.io/martinique-data-plans">马提尼克</a></li>
+  <li data-slug="mauritania" data-cn="毛里塔尼亚"><a href="https://azpetavircava.github.io/mauritania-data-plans">毛里塔尼亚</a></li>
+  <li data-slug="mexico" data-cn="墨西哥"><a href="https://azpetavircava.github.io/mexico-data-plans">墨西哥</a></li>
+  <li data-slug="moldova" data-cn="摩尔多瓦"><a href="https://azpetavircava.github.io/moldova-data-plans">摩尔多瓦</a></li>
+  <li data-slug="mongolia" data-cn="蒙古"><a href="https://azpetavircava.github.io/mongolia-data-plans">蒙古</a></li>
+  <li data-slug="montserrat" data-cn="蒙特塞拉特"><a href="https://azpetavircava.github.io/montserrat-data-plans">蒙特塞拉特</a></li>
+  <li data-slug="morocco" data-cn="摩洛哥"><a href="https://azpetavircava.github.io/morocco-data-plans">摩洛哥</a></li>
+  <li data-slug="mozambique" data-cn="莫桑比克"><a href="https://azpetavircava.github.io/mozambique-data-plans">莫桑比克</a></li>
+  <li data-slug="myanmar" data-cn="缅甸"><a href="https://azpetavircava.github.io/myanmar-data-plans">缅甸</a></li>
+</ul>
 
 ### N
 <a id="section-N"></a>
-- [纳米比亚](https://azpetavircava.github.io/namibia-data-plans)
-- [瑙鲁](https://azpetavircava.github.io/nauru-data-plans)
-- [尼泊尔](https://azpetavircava.github.io/nepal-data-plans)
-- [荷兰](https://azpetavircava.github.io/netherlands-data-plans)
-- [尼加拉瓜](https://azpetavircava.github.io/nicaragua-data-plans)
-- [尼日尔](https://azpetavircava.github.io/niger-data-plans)
-- [尼日利亚](https://azpetavircava.github.io/nigeria-data-plans)
+<ul class="country-list">
+  <li data-slug="namibia" data-cn="纳米比亚"><a href="https://azpetavircava.github.io/namibia-data-plans">纳米比亚</a></li>
+  <li data-slug="nauru" data-cn="瑙鲁"><a href="https://azpetavircava.github.io/nauru-data-plans">瑙鲁</a></li>
+  <li data-slug="nepal" data-cn="尼泊尔"><a href="https://azpetavircava.github.io/nepal-data-plans">尼泊尔</a></li>
+  <li data-slug="netherlands" data-cn="荷兰"><a href="https://azpetavircava.github.io/netherlands-data-plans">荷兰</a></li>
+  <li data-slug="nicaragua" data-cn="尼加拉瓜"><a href="https://azpetavircava.github.io/nicaragua-data-plans">尼加拉瓜</a></li>
+  <li data-slug="niger" data-cn="尼日尔"><a href="https://azpetavircava.github.io/niger-data-plans">尼日尔</a></li>
+  <li data-slug="nigeria" data-cn="尼日利亚"><a href="https://azpetavircava.github.io/nigeria-data-plans">尼日利亚</a></li>
+</ul>
 
 ### O
 <a id="section-O"></a>
-- [阿曼](https://azpetavircava.github.io/oman-data-plans)
+<ul class="country-list">
+  <li data-slug="oman" data-cn="阿曼"><a href="https://azpetavircava.github.io/oman-data-plans">阿曼</a></li>
+</ul>
 
 ### P
 <a id="section-P"></a>
-- [巴基斯坦](https://azpetavircava.github.io/pakistan-data-plans)
-- [巴勒斯坦](https://azpetavircava.github.io/palestine-data-plans)
-- [巴拿马](https://azpetavircava.github.io/panama-data-plans)
-- [巴布亚新几内亚](https://azpetavircava.github.io/papua-new-guinea-data-plans)
-- [巴拉圭](https://azpetavircava.github.io/paraguay-data-plans)
-- [秘鲁](https://azpetavircava.github.io/peru-data-plans)
-- [菲律宾](https://azpetavircava.github.io/philippines-data-plans)
-- [波兰](https://azpetavircava.github.io/poland-data-plans)
-- [葡萄牙](https://azpetavircava.github.io/portugal-data-plans)
-- [波多黎各](https://azpetavircava.github.io/puerto-rico-data-plans)
+<ul class="country-list">
+  <li data-slug="pakistan" data-cn="巴基斯坦"><a href="https://azpetavircava.github.io/pakistan-data-plans">巴基斯坦</a></li>
+  <li data-slug="palestine" data-cn="巴勒斯坦"><a href="https://azpetavircava.github.io/palestine-data-plans">巴勒斯坦</a></li>
+  <li data-slug="panama" data-cn="巴拿马"><a href="https://azpetavircava.github.io/panama-data-plans">巴拿马</a></li>
+  <li data-slug="papua-new-guinea" data-cn="巴布亚新几内亚"><a href="https://azpetavircava.github.io/papua-new-guinea-data-plans">巴布亚新几内亚</a></li>
+  <li data-slug="paraguay" data-cn="巴拉圭"><a href="https://azpetavircava.github.io/paraguay-data-plans">巴拉圭</a></li>
+  <li data-slug="peru" data-cn="秘鲁"><a href="https://azpetavircava.github.io/peru-data-plans">秘鲁</a></li>
+  <li data-slug="philippines" data-cn="菲律宾"><a href="https://azpetavircava.github.io/philippines-data-plans">菲律宾</a></li>
+  <li data-slug="poland" data-cn="波兰"><a href="https://azpetavircava.github.io/poland-data-plans">波兰</a></li>
+  <li data-slug="portugal" data-cn="葡萄牙"><a href="https://azpetavircava.github.io/portugal-data-plans">葡萄牙</a></li>
+  <li data-slug="puerto-rico" data-cn="波多黎各"><a href="https://azpetavircava.github.io/puerto-rico-data-plans">波多黎各</a></li>
+</ul>
 
 ### Q
 <a id="section-Q"></a>
-- [卡塔尔](https://azpetavircava.github.io/qatar-data-plans)
+<ul class="country-list">
+  <li data-slug="qatar" data-cn="卡塔尔"><a href="https://azpetavircava.github.io/qatar-data-plans">卡塔尔</a></li>
+</ul>
 
 ### R
 <a id="section-R"></a>
-- [刚果（布）](https://azpetavircava.github.io/republic-of-the-congo-data-plans)
-- [罗马尼亚](https://azpetavircava.github.io/romania-data-plans)
-- [留尼汪](https://azpetavircava.github.io/runion-data-plans)
-- [俄罗斯联邦](https://azpetavircava.github.io/russia-data-plans)
-- [卢旺达](https://azpetavircava.github.io/rwanda-data-plans)
+<ul class="country-list">
+  <li data-slug="republic-of-the-congo" data-cn="刚果（布）"><a href="https://azpetavircava.github.io/republic-of-the-congo-data-plans">刚果（布）</a></li>
+  <li data-slug="romania" data-cn="罗马尼亚"><a href="https://azpetavircava.github.io/romania-data-plans">罗马尼亚</a></li>
+  <li data-slug="runion" data-cn="留尼汪"><a href="https://azpetavircava.github.io/runion-data-plans">留尼汪</a></li>
+  <li data-slug="russia" data-cn="俄罗斯联邦"><a href="https://azpetavircava.github.io/russia-data-plans">俄罗斯联邦</a></li>
+  <li data-slug="rwanda" data-cn="卢旺达"><a href="https://azpetavircava.github.io/rwanda-data-plans">卢旺达</a></li>
+</ul>
 
 ### S
 <a id="section-S"></a>
-- [圣基茨和尼维斯](https://azpetavircava.github.io/saint-kitts-and-nevis-data-plans)
-- [圣卢西亚](https://azpetavircava.github.io/saint-lucia-data-plans)
-- [圣马丁岛](https://azpetavircava.github.io/saint-martin-data-plans)
-- [圣文森特和格林纳丁斯](https://azpetavircava.github.io/saint-vincent-and-the-grenadines-data-plans)
-- [萨摩亚](https://azpetavircava.github.io/samoa-data-plans)
-- [沙特阿拉伯](https://azpetavircava.github.io/saudi-arabia-data-plans)
-- [塞内加尔](https://azpetavircava.github.io/senegal-data-plans)
-- [塞拉利昂](https://azpetavircava.github.io/sierra-leone-data-plans)
-- [新加坡](https://azpetavircava.github.io/singapore-data-plans)
-- [荷属圣马丁](https://azpetavircava.github.io/sint-maarten-data-plans)
-- [索马里](https://azpetavircava.github.io/somalia-data-plans)
-- [南非](https://azpetavircava.github.io/south-africa-data-plans)
-- [韩国](https://azpetavircava.github.io/south-korea-data-plans)
-- [西班牙](https://azpetavircava.github.io/spain-data-plans)
-- [斯里兰卡](https://azpetavircava.github.io/sri-lanka-data-plans)
-- [苏丹](https://azpetavircava.github.io/sudan-data-plans)
-- [苏里南](https://azpetavircava.github.io/suriname-data-plans)
-- [瑞典](https://azpetavircava.github.io/sweden-data-plans)
-- [瑞士](https://azpetavircava.github.io/switzerland-data-plans)
-- [叙利亚](https://azpetavircava.github.io/syria-data-plans)
+<ul class="country-list">
+  <li data-slug="saint-kitts-and-nevis" data-cn="圣基茨和尼维斯"><a href="https://azpetavircava.github.io/saint-kitts-and-nevis-data-plans">圣基茨和尼维斯</a></li>
+  <li data-slug="saint-lucia" data-cn="圣卢西亚"><a href="https://azpetavircava.github.io/saint-lucia-data-plans">圣卢西亚</a></li>
+  <li data-slug="saint-martin" data-cn="圣马丁岛"><a href="https://azpetavircava.github.io/saint-martin-data-plans">圣马丁岛</a></li>
+  <li data-slug="saint-vincent-and-the-grenadines" data-cn="圣文森特和格林纳丁斯"><a href="https://azpetavircava.github.io/saint-vincent-and-the-grenadines-data-plans">圣文森特和格林纳丁斯</a></li>
+  <li data-slug="samoa" data-cn="萨摩亚"><a href="https://azpetavircava.github.io/samoa-data-plans">萨摩亚</a></li>
+  <li data-slug="saudi-arabia" data-cn="沙特阿拉伯"><a href="https://azpetavircava.github.io/saudi-arabia-data-plans">沙特阿拉伯</a></li>
+  <li data-slug="senegal" data-cn="塞内加尔"><a href="https://azpetavircava.github.io/senegal-data-plans">塞内加尔</a></li>
+  <li data-slug="sierra-leone" data-cn="塞拉利昂"><a href="https://azpetavircava.github.io/sierra-leone-data-plans">塞拉利昂</a></li>
+  <li data-slug="singapore" data-cn="新加坡"><a href="https://azpetavircava.github.io/singapore-data-plans">新加坡</a></li>
+  <li data-slug="sint-maarten" data-cn="荷属圣马丁"><a href="https://azpetavircava.github.io/sint-maarten-data-plans">荷属圣马丁</a></li>
+  <li data-slug="somalia" data-cn="索马里"><a href="https://azpetavircava.github.io/somalia-data-plans">索马里</a></li>
+  <li data-slug="south-africa" data-cn="南非"><a href="https://azpetavircava.github.io/south-africa-data-plans">南非</a></li>
+  <li data-slug="south-korea" data-cn="韩国"><a href="https://azpetavircava.github.io/south-korea-data-plans">韩国</a></li>
+  <li data-slug="spain" data-cn="西班牙"><a href="https://azpetavircava.github.io/spain-data-plans">西班牙</a></li>
+  <li data-slug="sri-lanka" data-cn="斯里兰卡"><a href="https://azpetavircava.github.io/sri-lanka-data-plans">斯里兰卡</a></li>
+  <li data-slug="sudan" data-cn="苏丹"><a href="https://azpetavircava.github.io/sudan-data-plans">苏丹</a></li>
+  <li data-slug="suriname" data-cn="苏里南"><a href="https://azpetavircava.github.io/suriname-data-plans">苏里南</a></li>
+  <li data-slug="sweden" data-cn="瑞典"><a href="https://azpetavircava.github.io/sweden-data-plans">瑞典</a></li>
+  <li data-slug="switzerland" data-cn="瑞士"><a href="https://azpetavircava.github.io/switzerland-data-plans">瑞士</a></li>
+  <li data-slug="syria" data-cn="叙利亚"><a href="https://azpetavircava.github.io/syria-data-plans">叙利亚</a></li>
+</ul>
 
 ### T
 <a id="section-T"></a>
-- [塔吉克斯坦](https://azpetavircava.github.io/tajikistan-data-plans)
-- [坦桑尼亚](https://azpetavircava.github.io/tanzania-data-plans)
-- [泰国](https://azpetavircava.github.io/thailand-data-plans)
-- [多哥](https://azpetavircava.github.io/togo-data-plans)
-- [汤加](https://azpetavircava.github.io/tonga-data-plans)
-- [特立尼达和多巴哥](https://azpetavircava.github.io/trinidad-and-tobago-data-plans)
-- [突尼斯](https://azpetavircava.github.io/tunisia-data-plans)
-- [土耳其](https://azpetavircava.github.io/turkey-data-plans)
-- [特克斯和凯科斯群岛](https://azpetavircava.github.io/turks-and-caicos-islands-data-plans)
+<ul class="country-list">
+  <li data-slug="tajikistan" data-cn="塔吉克斯坦"><a href="https://azpetavircava.github.io/tajikistan-data-plans">塔吉克斯坦</a></li>
+  <li data-slug="tanzania" data-cn="坦桑尼亚"><a href="https://azpetavircava.github.io/tanzania-data-plans">坦桑尼亚</a></li>
+  <li data-slug="thailand" data-cn="泰国"><a href="https://azpetavircava.github.io/thailand-data-plans">泰国</a></li>
+  <li data-slug="togo" data-cn="多哥"><a href="https://azpetavircava.github.io/togo-data-plans">多哥</a></li>
+  <li data-slug="tonga" data-cn="汤加"><a href="https://azpetavircava.github.io/tonga-data-plans">汤加</a></li>
+  <li data-slug="trinidad-and-tobago" data-cn="特立尼达和多巴哥"><a href="https://azpetavircava.github.io/trinidad-and-tobago-data-plans">特立尼达和多巴哥</a></li>
+  <li data-slug="tunisia" data-cn="突尼斯"><a href="https://azpetavircava.github.io/tunisia-data-plans">突尼斯</a></li>
+  <li data-slug="turkey" data-cn="土耳其"><a href="https://azpetavircava.github.io/turkey-data-plans">土耳其</a></li>
+  <li data-slug="turks-and-caicos-islands" data-cn="特克斯和凯科斯群岛"><a href="https://azpetavircava.github.io/turks-and-caicos-islands-data-plans">特克斯和凯科斯群岛</a></li>
+</ul>
 
 ### U
 <a id="section-U"></a>
-- [乌干达](https://azpetavircava.github.io/uganda-data-plans)
-- [乌克兰](https://azpetavircava.github.io/ukraine-data-plans)
-- [阿拉伯联合酋长国(阿联酋迪拜)](https://azpetavircava.github.io/united-arab-emirates-data-plans)
-- [英国](https://azpetavircava.github.io/united-kingdom-data-plans)
-- [美国](https://azpetavircava.github.io/united-states-data-plans)
-- [乌拉圭](https://azpetavircava.github.io/uruguay-data-plans)
-- [乌兹别克斯坦](https://azpetavircava.github.io/uzbekistan-data-plans)
+<ul class="country-list">
+  <li data-slug="uganda" data-cn="乌干达"><a href="https://azpetavircava.github.io/uganda-data-plans">乌干达</a></li>
+  <li data-slug="ukraine" data-cn="乌克兰"><a href="https://azpetavircava.github.io/ukraine-data-plans">乌克兰</a></li>
+  <li data-slug="united-arab-emirates" data-cn="阿拉伯联合酋长国(阿联酋迪拜)"><a href="https://azpetavircava.github.io/united-arab-emirates-data-plans">阿拉伯联合酋长国(阿联酋迪拜)</a></li>
+  <li data-slug="united-kingdom" data-cn="英国"><a href="https://azpetavircava.github.io/united-kingdom-data-plans">英国</a></li>
+  <li data-slug="united-states" data-cn="美国"><a href="https://azpetavircava.github.io/united-states-data-plans">美国</a></li>
+  <li data-slug="uruguay" data-cn="乌拉圭"><a href="https://azpetavircava.github.io/uruguay-data-plans">乌拉圭</a></li>
+  <li data-slug="uzbekistan" data-cn="乌兹别克斯坦"><a href="https://azpetavircava.github.io/uzbekistan-data-plans">乌兹别克斯坦</a></li>
+</ul>
 
 ### V
 <a id="section-V"></a>
-- [瓦努阿图](https://azpetavircava.github.io/vanuatu-data-plans)
-- [委内瑞拉](https://azpetavircava.github.io/venezuela-data-plans)
-- [越南](https://azpetavircava.github.io/vietnam-data-plans)
+<ul class="country-list">
+  <li data-slug="vanuatu" data-cn="瓦努阿图"><a href="https://azpetavircava.github.io/vanuatu-data-plans">瓦努阿图</a></li>
+  <li data-slug="venezuela" data-cn="委内瑞拉"><a href="https://azpetavircava.github.io/venezuela-data-plans">委内瑞拉</a></li>
+  <li data-slug="vietnam" data-cn="越南"><a href="https://azpetavircava.github.io/vietnam-data-plans">越南</a></li>
+</ul>
 
 ### Y
 <a id="section-Y"></a>
-- [也门](https://azpetavircava.github.io/yemen-data-plans)
+<ul class="country-list">
+  <li data-slug="yemen" data-cn="也门"><a href="https://azpetavircava.github.io/yemen-data-plans">也门</a></li>
+</ul>
 
 ### Z
 <a id="section-Z"></a>
-- [赞比亚](https://azpetavircava.github.io/zambia-data-plans)
-- [津巴布韦](https://azpetavircava.github.io/zimbabwe-data-plans)
+<ul class="country-list">
+  <li data-slug="zambia" data-cn="赞比亚"><a href="https://azpetavircava.github.io/zambia-data-plans">赞比亚</a></li>
+  <li data-slug="zimbabwe" data-cn="津巴布韦"><a href="https://azpetavircava.github.io/zimbabwe-data-plans">津巴布韦</a></li>
+</ul>
 
 ---
 
@@ -286,3 +385,11 @@ layout: default
   }
 }
 </script>
+
+<script>
+const input=document.getElementById('search');
+function normalize(s){return (s||'').toLowerCase();}
+function match(li,q){const cn=li.getAttribute('data-cn')||'';const slug=li.getAttribute('data-slug')||'';return normalize(cn).includes(q)||normalize(slug).includes(q);}
+input&&input.addEventListener('input',()=>{const q=normalize(input.value||'');document.querySelectorAll('ul.country-list').forEach(ul=>{ul.querySelectorAll('li').forEach(li=>{li.style.display=(q && !match(li,q))?'none':'';});});});
+</script>
+</div>
