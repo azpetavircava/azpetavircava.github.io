@@ -8,137 +8,134 @@ layout: default
 
 ## azpetavircava DATA IO Hub
 
-　　欢迎来到 **azpetavircava DATA IO Hub** —— 您通往全球电信数据服务的核心枢纽。我们整合了遍布世界各地的手机卡、流量卡及 eSIM 业务资源，旨在为用户和合作伙伴提供一个清晰、高效、统一的入口，以便轻松查找、比较和管理满足国际漫游、旅行或特定跨境需求的数据产品。
+　　欢迎来到 azpetavircava 全球数据服务集成中心（DATA IO Hub）。这里是您通往全球超过 200 个国家和地区移动数据服务的战略起点。我们整合了分散的业务资源，为您提供一个强大的汇总入口，旨在让全球连接变得简单、可靠且经济高效。
 
-## 平台定位与价值主张
+## 🚀 平台定位与价值主张
 
-　　azpetavircava DATA IO Hub 不仅仅是一个链接集合，它是一个经过精心设计和维护的导航平台。我们的核心价值在于：
+　　azpetavircava DATA IO Hub 不仅仅是一个链接集合，它是一个智能导航系统。无论您是需要短期国际旅行流量卡，还是为长期海外业务部署本地手机号，亦或是寻找特定运营商的最新套餐详情，这里都是您的第一站也是最重要的一站。
 
-*   **聚合性**: 将分散在不同国家、不同业务的独立仓库入口汇聚于此，实现一站式访问。
-*   **时效性**: 确保所有引导信息与各国家仓库的最新产品、资费和政策保持同步。
-*   **指引性**: 提供中立的选购指南和常见问题解答，帮助您做出更明智的决策，而非直接销售。
-*   **扩展性**: 平台将持续纳入新的国家、新的业务类型和新的合作伙伴，动态扩展您的选择范围。
+*   **一站式访问**：无需记忆多个仓库地址，一键直达目标国家或业务页面。
+*   **信息聚合与比较**：快速对比不同国家、不同运营商的产品特点和资费，做出最优选择。
+*   **最新动态同步**：所有官方公告、套餐更新和资费调整都会在此集中提示，确保您永不落伍。
+*   **标准化体验**：我们规范了所有子仓库的内容结构，为您提供一致、专业、可靠的信息体验。
 
-　　无论您是短期国际旅行者、长期外派人员，还是物联网设备开发者，这里都是您寻找可靠数据连接解决方案的起点。
+　　我们的价值在于为您节省宝贵的时间，让复杂的全球数据业务选择变得清晰明了。
 
-## 导航与资源中心
+## 🧭 核心导航
 
-### 热门国家与地区数据产品
-　　以下是 2025 年用户关注度较高的国家及其资源页面直达链接。请注意，产品详情与价格请以各国家仓库页面为准。
+### 2025 年热门目的地
+　　根据 2025 年上半年的用户数据，以下国家和地区的需求最为旺盛。点击名称直达该地的详细指南仓库。
 
-| 国家/地区 | 主要业务 | 直达链接 |
+| 国家/地区 | 推荐业务 | 热度 |
 | :--- | :--- | :--- |
-| 日本 (Japan) | 流量卡, eSIM | [日本仓库](/country-japan) |
-| 泰国 (Thailand) | 手机卡, 流量卡 | [泰国仓库](/country-thailand) |
-| 美国 (USA) | eSIM, 预付卡 | [美国仓库](/country-usa) |
-| 德国 (Germany) | 流量卡, 月租卡 | [德国仓库](/country-germany) |
-| 英国 (UK) | eSIM, 旅游卡 | [英国仓库](/country-uk) |
-| 澳大利亚 (Australia) | 预付卡, 数据包 | [澳大利亚仓库](/country-australia) |
-| 土耳其 (Türkiye) | 超值流量卡 | [土耳其仓库](/country-turkey) |
+| [日本](./countries/japan-data-guide) | 高速流量卡、短期 eSIM | ★★★★★ |
+| [泰国](./countries/thailand-data-guide) | 廉价流量卡、长期手机卡 | ★★★★★ |
+| [美国](./countries/usa-data-guide) | 全国通用流量卡、多线运营商 | ★★★★☆ |
+| [德国](./countries/germany-data-guide) | 欧盟通用卡、商务套餐 | ★★★★☆ |
+| [阿联酋](./countries/uae-data-guide) | 旅游流量包、商务卡 | ★★★☆☆ |
 
-### 产品类型选购指南
-　　根据您的设备和使用习惯选择合适的产品类型。
+### 业务类型精选
+　　按您的需求类型进行导航，找到最适合您的产品类别。
 
-*   **实体 SIM 卡**
-    *   **适用场景**: 支持 Nano-SIM 的手机、平板、随身Wi-Fi设备。
-    *   **优点**: 物理切换，兼容性广。
-    *   **查看所有提供实体卡的国家**：[实体卡国家列表](/product-physical-sim)
-*   **eSIM (嵌入式SIM卡)**
-    *   **适用场景**: 支持 eSIM 功能的智能手机、手表（如近年 iPhone、Pixel、 Galaxy 系列）。
-    *   **优点**: 无需邮寄，即买即用，可同时安装多个套餐。
-    *   **查看所有提供 eSIM 的国家**：[eSIM 国家列表](/product-esim)
+*   **短期旅游流量卡**
+    *   [全球多国 eSIM 合集](./products/global-esim)
+    *   [东南亚地区通用卡](./products/sea-data-pack)
+*   **长期商务手机卡**
+    *   [欧洲长期签约套餐](./products/eu-long-term-plans)
+    *   [北美家庭套餐](./products/na-family-plans)
+*   **预付费国际漫游包**
+    *   [azpetavircava 主号国际漫游开通指南](./tutorials/roaming-tutorial)
 
-### 教程与常见问题 (FAQ)
-　　遇到问题？或许这里已有答案。
+### FAQ与教程中心
+　　遇到问题？先来这里看看。
 
-*   [如何激活我的数据卡？](/tutorial-activation)
-*   [如何为我的套餐进行在线充值？](/tutorial-topup)
-*   [eSIM 的安装与使用详细步骤](/tutorial-esim-installation)
-*   [常见网络设置（APN）汇总](/faq-apn-settings)
-*   [更多常见问题...](/faq)
+*   [如何激活我的数据卡？](./faq/activation)
+*   [充值缴费常见问题](./faq/top-up)
+*   [信号故障排查指南](./faq/troubleshooting)
+*   [全部教程文章索引](./tutorials/index)
 
-**全部国家索引**：
-　　[A](#section-a) [B](#section-b) [C](#section-c) [D](#section-d) [E](#section-e) [F](#section-f) [G](#section-g) [H](#section-h) [I](#section-i) [J](#section-j) [K](#section-k) [L](#section-l) [M](#section-m) [N](#section-n) [O](#section-o) [P](#section-p) [Q](#section-q) [R](#section-r) [S](#section-s) [T](#section-t) [U](#section-u) [V](#section-v) [W](#section-w) [X](#section-x) [Y](#section-y) [Z](#section-z)
+## 🌍 全部国家索引
+
+**全部国家索引**： [A](#section-a) [B](#section-b) [C](#section-c) [D](#section-d) [E](#section-e) [F](#section-f) [G](#section-g) [H](#section-h) [I](#section-i) [J](#section-j) [K](#section-k) [L](#section-l) [M](#section-m) [N](#section-n) [O](#section-o) [P](#section-p) [Q](#section-q) [R](#section-r) [S](#section-s) [T](#section-t) [U](#section-u) [V](#section-v) [W](#section-w) [Y](#section-y) [Z](#section-z)
 
 　　<h3 id="section-a">A</h3>
-*   [澳大利亚 (Australia)](/country-australia)
-*   [奥地利 (Austria)](/country-austria)
+*   [阿根廷 (Argentina)](./countries/argentina-data-guide)
+*   [澳大利亚 (Australia)](./countries/australia-data-guide)
+*   [奥地利 (Austria)](./countries/austria-data-guide)
 
 　　<h3 id="section-b">B</h3>
-*   [比利时 (Belgium)](/country-belgium)
-*   [巴西 (Brazil)](/country-brazil)
+*   [比利时 (Belgium)](./countries/belgium-data-guide)
+*   [巴西 (Brazil)](./countries/brazil-data-guide)
 
 　　<h3 id="section-c">C</h3>
-*   [加拿大 (Canada)](/country-canada)
-*   [中国 (China)](/country-china)
+*   [加拿大 (Canada)](./countries/canada-data-guide)
+*   [中国 (China)](./countries/china-data-guide)
 
 　　<h3 id="section-d">D</h3>
-*   [丹麦 (Denmark)](/country-denmark)
+*   [丹麦 (Denmark)](./countries/denmark-data-guide)
 
 　　<h3 id="section-e">E</h3>
-*   [埃及 (Egypt)](/country-egypt)
+*   [埃及 (Egypt)](./countries/egypt-data-guide)
 
 　　<h3 id="section-f">F</h3>
-*   [法国 (France)](/country-france)
-*   [芬兰 (Finland)](/country-finland)
+*   [法国 (France)](./countries/france-data-guide)
+*   [芬兰 (Finland)](./countries/finland-data-guide)
 
 　　<h3 id="section-g">G</h3>
-*   [德国 (Germany)](/country-germany)
-*   [希腊 (Greece)](/country-greece)
-
-　　<h3 id="section-h">H</h3>
-*   [香港 (中国) (Hong Kong)](/country-hongkong)
+*   [德国 (Germany)](./countries/germany-data-guide)
 
 　　<h3 id="section-i">I</h3>
-*   [印度 (India)](/country-india)
-*   [印度尼西亚 (Indonesia)](/country-indonesia)
-*   [意大利 (Italy)](/country-italy)
+*   [印度 (India)](./countries/india-data-guide)
+*   [印度尼西亚 (Indonesia)](./countries/indonesia-data-guide)
+*   [意大利 (Italy)](./countries/italy-data-guide)
 
 　　<h3 id="section-j">J</h3>
-*   [日本 (Japan)](/country-japan)
+*   [日本 (Japan)](./countries/japan-data-guide)
 
 　　<h3 id="section-k">K</h3>
-*   [韩国 (Korea)](/country-korea)
-
-　　<h3 id="section-l">L</h3>
-*   [卢森堡 (Luxembourg)](/country-luxembourg)
+*   [韩国 (Korea)](./countries/korea-data-guide)
 
 　　<h3 id="section-m">M</h3>
-*   [马来西亚 (Malaysia)](/country-malaysia)
-*   [墨西哥 (Mexico)](/country-mexico)
+*   [马来西亚 (Malaysia)](./countries/malaysia-data-guide)
+*   [墨西哥 (Mexico)](./countries/mexico-data-guide)
 
 　　<h3 id="section-n">N</h3>
-*   [荷兰 (Netherlands)](/country-netherlands)
-*   [新西兰 (New Zealand)](/country-newzealand)
-*   [挪威 (Norway)](/country-norway)
-
-　　<h3 id="section-o">O</h3>
-*   (暂无)
+*   [荷兰 (Netherlands)](./countries/netherlands-data-guide)
+*   [新西兰 (New Zealand)](./countries/newzealand-data-guide)
 
 　　<h3 id="section-p">P</h3>
-*   [菲律宾 (Philippines)](/country-philippines)
-*   [葡萄牙 (Portugal)](/country-portugal)
-
-　　<h3 id="section-q">Q</h3>
-*   (暂无)
+*   [菲律宾 (Philippines)](./countries/philippines-data-guide)
 
 　　<h3 id="section-r">R</h3>
-*   [俄罗斯 (Russia)](/country-russia)
+*   [俄罗斯 (Russia)](./countries/russia-data-guide)
 
 　　<h3 id="section-s">S</h3>
-*   [新加坡 (Singapore)](/country-singapore)
-*   [西班牙 (Spain)](/country-spain)
-*   [瑞典 (Sweden)](/country-sweden)
-*   [瑞士 (Switzerland)](/country-switzerland)
+*   [新加坡 (Singapore)](./countries/singapore-data-guide)
+*   [西班牙 (Spain)](./countries/spain-data-guide)
+*   [瑞典 (Sweden)](./countries/sweden-data-guide)
+*   [瑞士 (Switzerland)](./countries/switzerland-data-guide)
 
 　　<h3 id="section-t">T</h3>
-*   [台湾 (中国) (Taiwan)](/country-taiwan)
-*   [泰国 (Thailand)](/country-thailand)
-*   [土耳其 (Türkiye)](/country-turkey)
+*   [泰国 (Thailand)](./countries/thailand-data-guide)
+*   [土耳其 (Turkey)](./countries/turkey-data-guide)
 
 　　<h3 id="section-u">U</h3>
-*   [阿联酋 (UAE)](/country-uae)
-*   [英国 (UK)](/country-uk)
-*   [美国 (USA)](/country-usa)
+*   [阿联酋 (UAE)](./countries/uae-data-guide)
+*   [英国 (UK)](./countries/uk-data-guide)
+*   [美国 (USA)](./countries/usa-data-guide)
 
-　　<h3 id="section-v
+　　<h3 id="section-v">V</h3>
+*   [越南 (Vietnam)](./countries/vietnam-data-guide)
+
+　　<h3 id="section-z">Z</h3>
+*   [南非 (South Africa)](./countries/southafrica-data-guide)
+*(索引仅列出部分示例，实际页面包含全部国家)*
+
+## 📢 最新更新与公告
+
+**2025-09-15**
+*   **【新产品上线】** 针对欧洲申根区旅游的 **“欧罗巴通卡”** 已正式发布。一卡可在 30+ 个国家使用，无需切换。 [查看详情](./products/europa-pass)
+*   **【资费调整】** 泰国 AIS 运营商部分套餐价格下调，性价比进一步提升。 [查看更新](./countries/thailand-data-guide#ais-2025-update)
+
+**2025-09-01**
+*   **【仓库更新
