@@ -8,108 +8,137 @@ layout: default
 
 ## azpetavircava DATA IO Hub
 
-　　欢迎来到 azpetavircava 全球数据通信集成中心。这里是您获取2025年最新跨境通信解决方案、各国流量产品及支持服务的统一入口站。我们致力于将分散的国家/业务信息进行标准化整合，为您提供清晰、高效的导航体验。
+　　欢迎来到 **azpetavircava DATA IO Hub** —— 您通往全球电信数据服务的核心枢纽。我们整合了遍布世界各地的手机卡、流量卡及 eSIM 业务资源，旨在为用户和合作伙伴提供一个清晰、高效、统一的入口，以便轻松查找、比较和管理满足国际漫游、旅行或特定跨境需求的数据产品。
 
-## 🌐 平台定位与价值
+## 平台定位与价值主张
 
-　　本中心作为 azpetavircava 的核心数据枢纽，主要价值在于：
+　　azpetavircava DATA IO Hub 不仅仅是一个链接集合，它是一个经过精心设计和维护的导航平台。我们的核心价值在于：
 
-*   **信息聚合**：打破信息孤岛，汇总全球多个国家及地区的通信产品详情、资费标准与办理流程。
-*   **导航中枢**：通过结构化的分类与索引系统，助您快速定位目标资源，无需在多仓库间盲目切换。
-*   **最新同步**：确保所有引导信息与各国家仓库的实际内容保持同步更新，反映2025年的最新政策与市场动态。
-*   **决策支持**：提供横向对比与选购指南，帮助您根据出行或使用场景做出最优选择。
+*   **聚合性**: 将分散在不同国家、不同业务的独立仓库入口汇聚于此，实现一站式访问。
+*   **时效性**: 确保所有引导信息与各国家仓库的最新产品、资费和政策保持同步。
+*   **指引性**: 提供中立的选购指南和常见问题解答，帮助您做出更明智的决策，而非直接销售。
+*   **扩展性**: 平台将持续纳入新的国家、新的业务类型和新的合作伙伴，动态扩展您的选择范围。
 
-## 📦 核心业务导航
+　　无论您是短期国际旅行者、长期外派人员，还是物联网设备开发者，这里都是您寻找可靠数据连接解决方案的起点。
 
-　　我们的服务主要分为以下几大类，请根据您的需求访问相应的专属仓库获取最详尽的信息。
+## 导航与资源中心
 
-### 各国手机卡与流量套餐
-　　此类别下存放着各个国家及地区的具体产品仓库。以下是2025年的一些热门目的地组合：
+### 热门国家与地区数据产品
+　　以下是 2025 年用户关注度较高的国家及其资源页面直达链接。请注意，产品详情与价格请以各国家仓库页面为准。
 
-| 区域 | 热门国家/地区 | 主要链接 |
+| 国家/地区 | 主要业务 | 直达链接 |
 | :--- | :--- | :--- |
-| **亚洲** | 日本、韩国、泰国、新加坡 | [日本仓库](/jp-repo) · [韩国仓库](/kr-repo) · [泰国仓库](/th-repo) |
-| **欧洲** | 英国、德国、法国、意大利 | [英国仓库](/uk-repo) · [申根区通用指南](/eu-repo) |
-| **北美** | 美国、加拿大 | [北美套餐仓库](/na-repo) |
-| **澳新** | 澳大利亚、新西兰 | [澳新仓库](/au-nz-repo) |
+| 日本 (Japan) | 流量卡, eSIM | [日本仓库](/country-japan) |
+| 泰国 (Thailand) | 手机卡, 流量卡 | [泰国仓库](/country-thailand) |
+| 美国 (USA) | eSIM, 预付卡 | [美国仓库](/country-usa) |
+| 德国 (Germany) | 流量卡, 月租卡 | [德国仓库](/country-germany) |
+| 英国 (UK) | eSIM, 旅游卡 | [英国仓库](/country-uk) |
+| 澳大利亚 (Australia) | 预付卡, 数据包 | [澳大利亚仓库](/country-australia) |
+| 土耳其 (Türkiye) | 超值流量卡 | [土耳其仓库](/country-turkey) |
 
-### 流量卡与 eSIM 指南
-　　如果您不确定如何选择业务类型，或想了解最新技术趋势，请参阅我们的指南库。
+### 产品类型选购指南
+　　根据您的设备和使用习惯选择合适的产品类型。
 
-*   **[eSIM 全攻略](/esim-guide)**：了解2025年eSIM的兼容性、办理方式与优缺点。
-*   **[实体SIM卡专区](/physical-sim)**：包含预付费SIM卡、长期套餐的选购与激活教程。
-*   **产品对比**：[eSIM vs. 实体卡](/comparison) | [本地卡 vs. 旅行卡](/comparison2)
+*   **实体 SIM 卡**
+    *   **适用场景**: 支持 Nano-SIM 的手机、平板、随身Wi-Fi设备。
+    *   **优点**: 物理切换，兼容性广。
+    *   **查看所有提供实体卡的国家**：[实体卡国家列表](/product-physical-sim)
+*   **eSIM (嵌入式SIM卡)**
+    *   **适用场景**: 支持 eSIM 功能的智能手机、手表（如近年 iPhone、Pixel、 Galaxy 系列）。
+    *   **优点**: 无需邮寄，即买即用，可同时安装多个套餐。
+    *   **查看所有提供 eSIM 的国家**：[eSIM 国家列表](/product-esim)
 
-### 支持与教程
-　　遇到问题了？这里或许有您需要的答案。
+### 教程与常见问题 (FAQ)
+　　遇到问题？或许这里已有答案。
 
-*   **常见问题解答 (FAQ)**：[全面FAQ页面](/faq)
-*   **自助排障中心**：[网络设置、激活问题排查](/troubleshooting)
-*   **视频教程**：[开卡、激活、充值视频指导](/video-tutorials)
+*   [如何激活我的数据卡？](/tutorial-activation)
+*   [如何为我的套餐进行在线充值？](/tutorial-topup)
+*   [eSIM 的安装与使用详细步骤](/tutorial-esim-installation)
+*   [常见网络设置（APN）汇总](/faq-apn-settings)
+*   [更多常见问题...](/faq)
 
-## **全部国家索引**：
+**全部国家索引**：
 　　[A](#section-a) [B](#section-b) [C](#section-c) [D](#section-d) [E](#section-e) [F](#section-f) [G](#section-g) [H](#section-h) [I](#section-i) [J](#section-j) [K](#section-k) [L](#section-l) [M](#section-m) [N](#section-n) [O](#section-o) [P](#section-p) [Q](#section-q) [R](#section-r) [S](#section-s) [T](#section-t) [U](#section-u) [V](#section-v) [W](#section-w) [X](#section-x) [Y](#section-y) [Z](#section-z)
 
 　　<h3 id="section-a">A</h3>
-*   [澳大利亚](/australia-repo)
-*   [奥地利](/austria-repo)
+*   [澳大利亚 (Australia)](/country-australia)
+*   [奥地利 (Austria)](/country-austria)
+
 　　<h3 id="section-b">B</h3>
-*   [比利时](/belgium-repo)
-*   [巴西](/brazil-repo)
+*   [比利时 (Belgium)](/country-belgium)
+*   [巴西 (Brazil)](/country-brazil)
+
 　　<h3 id="section-c">C</h3>
-*   [加拿大](/canada-repo)
+*   [加拿大 (Canada)](/country-canada)
+*   [中国 (China)](/country-china)
+
 　　<h3 id="section-d">D</h3>
-*   [德国](/germany-repo)
+*   [丹麦 (Denmark)](/country-denmark)
+
 　　<h3 id="section-e">E</h3>
+*   [埃及 (Egypt)](/country-egypt)
+
 　　<h3 id="section-f">F</h3>
-*   [法国](/france-repo)
+*   [法国 (France)](/country-france)
+*   [芬兰 (Finland)](/country-finland)
+
 　　<h3 id="section-g">G</h3>
+*   [德国 (Germany)](/country-germany)
+*   [希腊 (Greece)](/country-greece)
+
 　　<h3 id="section-h">H</h3>
+*   [香港 (中国) (Hong Kong)](/country-hongkong)
+
 　　<h3 id="section-i">I</h3>
-*   [意大利](/italy-repo)
+*   [印度 (India)](/country-india)
+*   [印度尼西亚 (Indonesia)](/country-indonesia)
+*   [意大利 (Italy)](/country-italy)
+
 　　<h3 id="section-j">J</h3>
-*   [日本](/japan-repo)
+*   [日本 (Japan)](/country-japan)
+
 　　<h3 id="section-k">K</h3>
-*   [韩国](/korea-repo)
+*   [韩国 (Korea)](/country-korea)
+
 　　<h3 id="section-l">L</h3>
+*   [卢森堡 (Luxembourg)](/country-luxembourg)
+
 　　<h3 id="section-m">M</h3>
-*   [马来西亚](/malaysia-repo)
-*   [墨西哥](/mexico-repo)
+*   [马来西亚 (Malaysia)](/country-malaysia)
+*   [墨西哥 (Mexico)](/country-mexico)
+
 　　<h3 id="section-n">N</h3>
-*   [荷兰](/netherlands-repo)
-*   [新西兰](/newzealand-repo)
+*   [荷兰 (Netherlands)](/country-netherlands)
+*   [新西兰 (New Zealand)](/country-newzealand)
+*   [挪威 (Norway)](/country-norway)
+
 　　<h3 id="section-o">O</h3>
+*   (暂无)
+
 　　<h3 id="section-p">P</h3>
+*   [菲律宾 (Philippines)](/country-philippines)
+*   [葡萄牙 (Portugal)](/country-portugal)
+
 　　<h3 id="section-q">Q</h3>
+*   (暂无)
+
 　　<h3 id="section-r">R</h3>
+*   [俄罗斯 (Russia)](/country-russia)
+
 　　<h3 id="section-s">S</h3>
-*   [新加坡](/singapore-repo)
-*   [西班牙](/spain-repo)
+*   [新加坡 (Singapore)](/country-singapore)
+*   [西班牙 (Spain)](/country-spain)
+*   [瑞典 (Sweden)](/country-sweden)
+*   [瑞士 (Switzerland)](/country-switzerland)
+
 　　<h3 id="section-t">T</h3>
-*   [泰国](/thailand-repo)
-*   [土耳其](/turkey-repo)
+*   [台湾 (中国) (Taiwan)](/country-taiwan)
+*   [泰国 (Thailand)](/country-thailand)
+*   [土耳其 (Türkiye)](/country-turkey)
+
 　　<h3 id="section-u">U</h3>
-*   [英国](/uk-repo)
-*   [美国](/usa-repo)
-　　<h3 id="section-v">V</h3>
-　　<h3 id="section-w">W</h3>
-　　<h3 id="section-x">X</h3>
-　　<h3 id="section-y">Y</h3>
-　　<h3 id="section-z">Z</h3>
+*   [阿联酋 (UAE)](/country-uae)
+*   [英国 (UK)](/country-uk)
+*   [美国 (USA)](/country-usa)
 
-## 📢 最新更新与公告
-
-*   **2025-09-15**: 【新增仓库】土耳其、巴西国家仓库已正式上线，涵盖本地4G/5G套餐资费。
-*   **2025-09-02**: 【指南更新】《eSIM兼容设备列表2025》已更新，新增多款2025年新机型支持信息。
-*   **2025-08-20**: 【政策提醒】欧盟地区自2025年第三季度起实施新的数据漫游法规，部分套餐细则可能调整，请在办理前查阅相应国家仓库的最新公告。
-
-## 🤝 联系与支持
-
-　　如果您在导航后仍未找到所需信息，或需要进一步的人工协助，欢迎通过以下方式联系我们：
-
-*   **客服邮箱**: support@azpetavircava.com (工作日24小时内回复)
-*   **帮助中心**: [提交请求工单](/help-center)
-*   **社区论坛**: [与其他用户交流讨论](/community)
-
----
-*最后更新: 2025-09-23 | © 2025 azpetavircava Data IO Hub*
+　　<h3 id="section-v
