@@ -8,134 +8,133 @@ layout: default
 
 ## azpetavircava DATA IO Hub
 
-　　欢迎来到 azpetavircava 全球数据服务集成中心（DATA IO Hub）。这里是您通往全球超过 200 个国家和地区移动数据服务的战略起点。我们整合了分散的业务资源，为您提供一个强大的汇总入口，旨在让全球连接变得简单、可靠且经济高效。
+　　欢迎来到 azpetavircava DATA IO Hub——您的全球电信数据服务中心。我们致力于为您提供跨国家、跨业务的通信产品汇总、比较与自助管理入口，简化您的全球连接选择。
 
-## 🚀 平台定位与价值主张
+## 平台定位与价值主张
 
-　　azpetavircava DATA IO Hub 不仅仅是一个链接集合，它是一个智能导航系统。无论您是需要短期国际旅行流量卡，还是为长期海外业务部署本地手机号，亦或是寻找特定运营商的最新套餐详情，这里都是您的第一站也是最重要的一站。
+　　azpetavircava DATA IO Hub 是一个集成化的信息与服务中心，主要价值包括：
 
-*   **一站式访问**：无需记忆多个仓库地址，一键直达目标国家或业务页面。
-*   **信息聚合与比较**：快速对比不同国家、不同运营商的产品特点和资费，做出最优选择。
-*   **最新动态同步**：所有官方公告、套餐更新和资费调整都会在此集中提示，确保您永不落伍。
-*   **标准化体验**：我们规范了所有子仓库的内容结构，为您提供一致、专业、可靠的信息体验。
+-   **一站式比较**：快速浏览不同国家、不同运营商的最新手机卡、流量卡及 eSIM 套餐资费。
+-   **统一导航**：无论您需要哪个国家的服务，都可以从这里方便地找到对应的详细攻略仓库。
+-   **最新资讯**：实时同步各国家仓库的套餐更新、促销活动与业务调整公告。
+-   **自助支持**：集中提供常见问题解答（FAQ）和教程，帮助您自主解决问题。
 
-　　我们的价值在于为您节省宝贵的时间，让复杂的全球数据业务选择变得清晰明了。
+## 核心业务导航
 
-## 🧭 核心导航
+　　我们的服务按业务类型分为以下几大类，请点击下方链接开始探索。
 
-### 2025 年热门目的地
-　　根据 2025 年上半年的用户数据，以下国家和地区的需求最为旺盛。点击名称直达该地的详细指南仓库。
+### 手机卡与合约套餐
+　　适用于需要长期本地号码及通话服务的用户。
+-   [美国手机卡业务汇总](placeholder-link-usa-voice)
+-   [英国手机卡业务汇总](placeholder-link-uk-voice)
+-   [澳大利亚手机卡业务汇总](placeholder-link-aus-voice)
+-   [查看所有国家手机卡业务](placeholder-link-all-voice)
 
-| 国家/地区 | 推荐业务 | 热度 |
+### 数据流量卡与 eSIM
+　　为旅行者和短期用户提供灵活的数据连接解决方案。
+-   [全球 eSIM 即时购买与启用](placeholder-link-global-esim)
+-   [日本旅游流量卡精选](placeholder-link-japan-data)
+-   [欧洲多国通用流量卡](placeholder-link-europe-data)
+-   [查看所有数据产品](placeholder-link-all-data)
+
+### 教程与常见问题 (FAQ)
+　　自助解决问题的首选，包含从开户到使用的各类指南。
+-   [如何在线开通 eSIM](placeholder-link-esim-tutorial)
+-   [海外充值常见问题](placeholder-link-topup-faq)
+-   [信号问题排查指南](placeholder-link-troubleshooting)
+-   [查看更多教程与FAQ](placeholder-link-all-tutorials)
+
+### 2025年热门目的地
+　　根据 2025 年出行趋势，我们为您精选了以下热门目的地的快速入口。
+| 国家/地区 | 推荐业务 | 链接 |
 | :--- | :--- | :--- |
-| [日本](./countries/japan-data-guide) | 高速流量卡、短期 eSIM | ★★★★★ |
-| [泰国](./countries/thailand-data-guide) | 廉价流量卡、长期手机卡 | ★★★★★ |
-| [美国](./countries/usa-data-guide) | 全国通用流量卡、多线运营商 | ★★★★☆ |
-| [德国](./countries/germany-data-guide) | 欧盟通用卡、商务套餐 | ★★★★☆ |
-| [阿联酋](./countries/uae-data-guide) | 旅游流量包、商务卡 | ★★★☆☆ |
+| **日本** | 高速流量卡, eSIM | [查看日本攻略](placeholder-link-japan) |
+| **泰国** | 廉价流量套餐, 游客SIM | [查看泰国攻略](placeholder-link-thailand) |
+| **法国** | 欧洲多国通用卡 | [查看法国攻略](placeholder-link-france) |
+| **美国** | 无限流量套餐 | [查看美国攻略](placeholder-link-usa) |
+| **阿联酋** | 商务游客eSIM | [查看阿联酋攻略](placeholder-link-uae) |
 
-### 业务类型精选
-　　按您的需求类型进行导航，找到最适合您的产品类别。
+## 国家与业务索引
 
-*   **短期旅游流量卡**
-    *   [全球多国 eSIM 合集](./products/global-esim)
-    *   [东南亚地区通用卡](./products/sea-data-pack)
-*   **长期商务手机卡**
-    *   [欧洲长期签约套餐](./products/eu-long-term-plans)
-    *   [北美家庭套餐](./products/na-family-plans)
-*   **预付费国际漫游包**
-    *   [azpetavircava 主号国际漫游开通指南](./tutorials/roaming-tutorial)
-
-### FAQ与教程中心
-　　遇到问题？先来这里看看。
-
-*   [如何激活我的数据卡？](./faq/activation)
-*   [充值缴费常见问题](./faq/top-up)
-*   [信号故障排查指南](./faq/troubleshooting)
-*   [全部教程文章索引](./tutorials/index)
-
-## 🌍 全部国家索引
-
-**全部国家索引**： [A](#section-a) [B](#section-b) [C](#section-c) [D](#section-d) [E](#section-e) [F](#section-f) [G](#section-g) [H](#section-h) [I](#section-i) [J](#section-j) [K](#section-k) [L](#section-l) [M](#section-m) [N](#section-n) [O](#section-o) [P](#section-p) [Q](#section-q) [R](#section-r) [S](#section-s) [T](#section-t) [U](#section-u) [V](#section-v) [W](#section-w) [Y](#section-y) [Z](#section-z)
+**全部国家索引**：
+　　[A](#section-a) [B](#section-b) [C](#section-c) [D](#section-d) [E](#section-e) [F](#section-f) [G](#section-g) [H](#section-h) [I](#section-i) [J](#section-j) [K](#section-k) [L](#section-l) [M](#section-m) [N](#section-n) [O](#section-o) [P](#section-p) [Q](#section-q) [R](#section-r) [S](#section-s) [T](#section-t) [U](#section-u) [V](#section-v) [W](#section-w) [X](#section-x) [Y](#section-y) [Z](#section-z)
 
 　　<h3 id="section-a">A</h3>
-*   [阿根廷 (Argentina)](./countries/argentina-data-guide)
-*   [澳大利亚 (Australia)](./countries/australia-data-guide)
-*   [奥地利 (Austria)](./countries/austria-data-guide)
-
+-   [澳大利亚 (Australia)](placeholder-link-australia)
+-   [奥地利 (Austria)](placeholder-link-austria)
 　　<h3 id="section-b">B</h3>
-*   [比利时 (Belgium)](./countries/belgium-data-guide)
-*   [巴西 (Brazil)](./countries/brazil-data-guide)
-
+-   [巴西 (Brazil)](placeholder-link-brazil)
+-   [比利时 (Belgium)](placeholder-link-belgium)
 　　<h3 id="section-c">C</h3>
-*   [加拿大 (Canada)](./countries/canada-data-guide)
-*   [中国 (China)](./countries/china-data-guide)
-
+-   [加拿大 (Canada)](placeholder-link-canada)
+-   [中国 (China)](placeholder-link-china)
 　　<h3 id="section-d">D</h3>
-*   [丹麦 (Denmark)](./countries/denmark-data-guide)
-
+-   [德国 (Germany)](placeholder-link-germany)
 　　<h3 id="section-e">E</h3>
-*   [埃及 (Egypt)](./countries/egypt-data-guide)
-
+-   [埃及 (Egypt)](placeholder-link-egypt)
 　　<h3 id="section-f">F</h3>
-*   [法国 (France)](./countries/france-data-guide)
-*   [芬兰 (Finland)](./countries/finland-data-guide)
-
+-   [法国 (France)](placeholder-link-france)
+-   [菲律宾 (Philippines)](placeholder-link-philippines)
 　　<h3 id="section-g">G</h3>
-*   [德国 (Germany)](./countries/germany-data-guide)
-
+-   [英国 (United Kingdom)](placeholder-link-uk)
+　　<h3 id="section-h">H</h3>
+-   [香港 (中国) (Hong Kong)](placeholder-link-hongkong)
 　　<h3 id="section-i">I</h3>
-*   [印度 (India)](./countries/india-data-guide)
-*   [印度尼西亚 (Indonesia)](./countries/indonesia-data-guide)
-*   [意大利 (Italy)](./countries/italy-data-guide)
-
+-   [印度 (India)](placeholder-link-india)
+-   [印度尼西亚 (Indonesia)](placeholder-link-indonesia)
+-   [意大利 (Italy)](placeholder-link-italy)
 　　<h3 id="section-j">J</h3>
-*   [日本 (Japan)](./countries/japan-data-guide)
-
+-   [日本 (Japan)](placeholder-link-japan)
 　　<h3 id="section-k">K</h3>
-*   [韩国 (Korea)](./countries/korea-data-guide)
-
+-   [韩国 (Korea)](placeholder-link-korea)
+　　<h3 id="section-l">L</h3>
+-   [马来西亚 (Malaysia)](placeholder-link-malaysia)
 　　<h3 id="section-m">M</h3>
-*   [马来西亚 (Malaysia)](./countries/malaysia-data-guide)
-*   [墨西哥 (Mexico)](./countries/mexico-data-guide)
-
+-   [墨西哥 (Mexico)](placeholder-link-mexico)
 　　<h3 id="section-n">N</h3>
-*   [荷兰 (Netherlands)](./countries/netherlands-data-guide)
-*   [新西兰 (New Zealand)](./countries/newzealand-data-guide)
-
+-   [荷兰 (Netherlands)](placeholder-link-netherlands)
+　　<h3 id="section-o">O</h3>
+*(当前无国家)*
 　　<h3 id="section-p">P</h3>
-*   [菲律宾 (Philippines)](./countries/philippines-data-guide)
-
+-   [葡萄牙 (Portugal)](placeholder-link-portugal)
+　　<h3 id="section-q">Q</h3>
+*(当前无国家)*
 　　<h3 id="section-r">R</h3>
-*   [俄罗斯 (Russia)](./countries/russia-data-guide)
-
+-   [俄罗斯 (Russia)](placeholder-link-russia)
 　　<h3 id="section-s">S</h3>
-*   [新加坡 (Singapore)](./countries/singapore-data-guide)
-*   [西班牙 (Spain)](./countries/spain-data-guide)
-*   [瑞典 (Sweden)](./countries/sweden-data-guide)
-*   [瑞士 (Switzerland)](./countries/switzerland-data-guide)
-
+-   [新加坡 (Singapore)](placeholder-link-singapore)
+-   [西班牙 (Spain)](placeholder-link-spain)
+-   [瑞士 (Switzerland)](placeholder-link-switzerland)
 　　<h3 id="section-t">T</h3>
-*   [泰国 (Thailand)](./countries/thailand-data-guide)
-*   [土耳其 (Turkey)](./countries/turkey-data-guide)
-
+-   [泰国 (Thailand)](placeholder-link-thailand)
+-   [土耳其 (Turkey)](placeholder-link-turkey)
 　　<h3 id="section-u">U</h3>
-*   [阿联酋 (UAE)](./countries/uae-data-guide)
-*   [英国 (UK)](./countries/uk-data-guide)
-*   [美国 (USA)](./countries/usa-data-guide)
-
+-   [阿联酋 (UAE)](placeholder-link-uae)
+-   [美国 (USA)](placeholder-link-usa)
 　　<h3 id="section-v">V</h3>
-*   [越南 (Vietnam)](./countries/vietnam-data-guide)
-
+-   [越南 (Vietnam)](placeholder-link-vietnam)
+　　<h3 id="section-w">W</h3>
+*(当前无国家)*
+　　<h3 id="section-x">X</h3>
+*(当前无国家)*
+　　<h3 id="section-y">Y</h3>
+*(当前无国家)*
 　　<h3 id="section-z">Z</h3>
-*   [南非 (South Africa)](./countries/southafrica-data-guide)
-*(索引仅列出部分示例，实际页面包含全部国家)*
+*(当前无国家)*
 
-## 📢 最新更新与公告
+## 最新更新与公告
 
 **2025-09-15**
-*   **【新产品上线】** 针对欧洲申根区旅游的 **“欧罗巴通卡”** 已正式发布。一卡可在 30+ 个国家使用，无需切换。 [查看详情](./products/europa-pass)
-*   **【资费调整】** 泰国 AIS 运营商部分套餐价格下调，性价比进一步提升。 [查看更新](./countries/thailand-data-guide#ais-2025-update)
+-   **新增国家仓库**：意大利、葡萄牙详细攻略已正式上线，涵盖主流运营商套餐对比。
+-   **套餐更新**：日本 Docomo 2025 秋季限量流量套餐已开放购买，详情请见 [日本仓库](placeholder-link-japan)。
 
-**2025-09-01**
-*   **【仓库更新
+**2025-09-02**
+-   **系统升级**：全站支持直接使用银联、支付宝购买 eSIM 服务，支付体验更流畅。
+-   **公告**：泰国 AIS 运营商部分旧套餐将于 10 月底下线，请用户参考 [泰国仓库](placeholder-link-thailand) 了解新套餐信息。
+
+## 联系与支持
+
+　　如果您在浏览或使用服务时遇到任何问题，可以通过以下方式联系我们：
+
+-   **客服邮箱**：support@azpetavircava.com
+-   **帮助中心**：[查看完整的帮助文档](
