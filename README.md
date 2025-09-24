@@ -1,41 +1,41 @@
-# azpetavircava.github.io — 全球流量卡中文导航
+# 流量卡 IO Hub
 
-- 主页：https://azpetavircava.github.io
-- 业务切换：https://faciylike.github.io
 
-## 快速导航（TOP 30）
+## 使命与定位
 
-- [阿富汗](https://azpetavircava.github.io/afghanistan-data-plans)
-- [阿尔巴尼亚](https://azpetavircava.github.io/albania-data-plans)
-- [阿尔及利亚](https://azpetavircava.github.io/algeria-data-plans)
-- [美属萨摩亚](https://azpetavircava.github.io/american-samoa-data-plans)
-- [安哥拉](https://azpetavircava.github.io/angola-data-plans)
-- [安圭拉](https://azpetavircava.github.io/anguilla-data-plans)
-- [安提瓜和巴布达](https://azpetavircava.github.io/antigua-and-barbuda-data-plans)
-- [阿根廷](https://azpetavircava.github.io/argentina-data-plans)
-- [亚美尼亚](https://azpetavircava.github.io/armenia-data-plans)
-- [阿鲁巴](https://azpetavircava.github.io/aruba-data-plans)
-- [澳大利亚](https://azpetavircava.github.io/australia-data-plans)
-- [奥地利](https://azpetavircava.github.io/austria-data-plans)
-- [阿塞拜疆](https://azpetavircava.github.io/azerbaijan-data-plans)
-- [巴哈马](https://azpetavircava.github.io/bahamas-data-plans)
-- [巴林](https://azpetavircava.github.io/bahrain-data-plans)
-- [孟加拉国](https://azpetavircava.github.io/bangladesh-data-plans)
-- [巴巴多斯](https://azpetavircava.github.io/barbados-data-plans)
-- [白俄罗斯](https://azpetavircava.github.io/belarus-data-plans)
-- [比利时](https://azpetavircava.github.io/belgium-data-plans)
-- [伯利兹](https://azpetavircava.github.io/belize-data-plans)
-- [贝宁](https://azpetavircava.github.io/benin-data-plans)
-- [百慕大](https://azpetavircava.github.io/bermuda-data-plans)
-- [不丹](https://azpetavircava.github.io/bhutan-data-plans)
-- [玻利维亚](https://azpetavircava.github.io/bolivia-data-plans)
-- [博茨瓦纳](https://azpetavircava.github.io/botswana-data-plans)
-- [巴西](https://azpetavircava.github.io/brazil-data-plans)
-- [英属维尔京群岛](https://azpetavircava.github.io/british-virgin-islands-data-plans)
-- [布基纳法索](https://azpetavircava.github.io/burkina-faso-data-plans)
-- [布隆迪](https://azpetavircava.github.io/burundi-data-plans)
-- [柬埔寨](https://azpetavircava.github.io/cambodia-data-plans)
+azpetavircava DATA IO Hub 致力于提供全球多国（及地区）的数据套餐信息，为国际旅行者、海外工作者及数字游民提供便捷的 eSIM 及移动数据资费参考。我们的数据覆盖广泛，旨在帮助用户在全球范围内快速找到高性价比的数据连接方案。如需实时交流与更新，欢迎关注我们的 Telegram 频道 ✈ [@esim1088](https://t.me/s/esim1088)。
 
-## 说明
+## 统计概览
 
-本仓库通过 gh-pages 提供主页聚合导航；各国家页面分布于子仓库。欢迎 Issue 反馈。
+- **业务类型数量**: 1 类（数据套餐信息）
+- **覆盖国家/地区数量**: 152 个
+
+## 快速导航
+
+| 业务类型 | 国家数量 | 访问入口 |
+|----------|----------|----------|
+| 数据套餐信息 | 152 | [点击查看全部国家/地区](index.md) |
+
+## 使用指南
+
+1. **搜索与索引**：您可以通过 [国家/地区索引](index.md#国家地区索引) 快速定位到目标国家，支持按首字母或中文名称检索。
+2. **跳转详情页**：每个国家/地区均设有独立的数据套餐详情页，点击表格中的国家名即可跳转至对应的 GitHub Pages 页面（例如： [中国香港](https://azpetavircava.github.io/hong-kong-data-plans)）。
+
+## 更新与维护
+
+暂无更新记录。
+
+## 贡献与反馈
+
+我们欢迎社区贡献和反馈！如果您发现信息过时、错误，或希望添加新的国家/地区数据，请通过以下方式参与：
+
+- 提交 Issue：报告问题或建议新内容 [点击此处提交](https://github.com/azpetavircava/azpetavircava-DATA/issues)
+- 联系我们：您也可以通过 Telegram 频道 ✈ [@esim1088](https://t.me/s/esim1088) 直接反馈
+
+## 许可与免责
+
+本仓库所提供的数据套餐信息均来源于公开网络，仅供参考。实际资费可能因运营商政策、汇率波动等因素发生变化，请以官方渠道最新信息为准。本数据不得用于商业用途，作者不对因使用此数据而产生的任何直接或间接损失负责。
+
+---
+
+最后更新：2025-09-24 | 版权所有 © azpetavircava DATA IO
